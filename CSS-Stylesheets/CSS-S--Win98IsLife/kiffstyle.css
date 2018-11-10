@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
+
+body{
+	margin:0;
+	padding:0;
+	/*background:url(images/win98desk.png) no-repeat center center fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;*/
+	background-color:black;
+	background-image:url(images/win98desk.png);
+	background-repeat:no-repeat;
+	
+}
+p{
+	margin-left:20px;
+	color:white;
+	font-family: 'VT323', monospace;
+	font-size:26px;
+}
+.titre h1{
+	margin-top:80px;
+	margin-left:10px;
+	font-size:60px;
+	font-family: 'Press Start 2P', cursive;
+}
+.slogan h2{
+	margin-top:8px;
+	margin-left:25px;
+	font-size:11px;
+	font-family: 'Press Start 2P', cursive;
+	color:white;
+}
+ul div{
+	display:inline-block;
+	margin-left:10px;
+}
+.win{
+	background-image:url(images/win98mainfolder.png);
+	background-repeat:no-repeat;
+	-webkit-background-repeat:no-repeat;
+	-moz-background-repeat:no-repeat;
+	-o-background-repeat:no-repeat;
+	background-color:black;
+	
+	margin-left:174px;
+	margin-top:175px;
+	width:977px;
+	height:730px;
+}
+.titre{
+	background-image:url(images/win98folder50.png);
+	background-repeat:no-repeat;
+	-webkit-background-repeat:no-repeat;
+	-moz-background-repeat:no-repeat;
+	-o-background-repeat:no-repeat;
+	background-color:black;
+	
+	z-index:-2;
+	
+	position:absolute;
+	left:100px;
+	top:-20px;
+	
+	width:640px;
+	height:512px;
+}
+.slogan{
+	background-image:url(images/win98folder50.png);
+	background-repeat:no-repeat;
+	-webkit-background-repeat:no-repeat;
+	-moz-background-repeat:no-repeat;
+	-o-background-repeat:no-repeat;
+	background-color:black;
+	
+	z-index:-1;
+	
+	position:absolute;
+	left:550px;
+	top:130px;
+	
+	width:640px;
+	height:512px;
+}
+
+
+
+.up{
+	position:fixed;
+	top:220px;
+	left:150px;
+
+}
+/*###########################*/
+.box1{
+	width:220px;
+	height:300px;
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box1{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0.8);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box1:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box1 > div{
+	background-image:url(images/win98folder100.png);
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:0px;
+	left:0px;
+}
+.close-modal1{
+	position:absolute;
+	top:1px;
+	right:8px;
+	color:black;
+}
+.b1h{
+	margin-left:220px;
+	margin-top:-79px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:margin-left 0.5s ease;
+}
+.box1:hover .b1h{
+	margin-left:0;
+}
+
+/*###########################*/
+.box2{
+	width:220px;
+	height:300px;
+	/* float:right; */
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box2{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0.8);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box2:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box2 > div{
+	background-image:url(images/win98folder100.png);
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:0px;
+	left:0px;
+}
+.close-modal2{
+	position:absolute;
+	top:1px;
+	right:8px;
+	color:black;
+}
+.b2h{
+	margin-left:-220px;
+	margin-top:-79px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:margin-left 0.5s ease;
+}
+.box2:hover .b2h{
+	margin-left:0;
+	
+}
+/*###########################*/
+.box3{
+	width:220px;
+	height:300px;
+	/* float:right; */
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box3{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0.8);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box3:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box3 > div{
+	background-image:url(images/win98folder100.png);
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:0px;
+	left:0px;
+}
+.close-modal3{
+	position:absolute;
+	top:1px;
+	right:8px;
+	color:black;
+}
+.b3h{
+	position:relative;
+	left:-10px;
+	top:-379px; /*-352*/
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:top 0.5s ease;
+}
+.box3:hover .b3h{
+	top:-79px;
+}
+/*###########################*/
+.box4{
+	width:220px;
+	height:300px;
+	/* float:right; */
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box4{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0.8);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box4:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box4 > div{
+	background-image:url(images/win98folder100.png);
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:0px;
+	left:0px;
+}
+.close-modal4{
+	position:absolute;
+	top:1px;
+	right:8px;
+	color:black;
+}
+.b4h{
+	position:relative;
+	left:-10px;
+	top:222px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:top 0.5s ease;
+}
+.box4:hover .b4h{
+	top:-79px;
+}
+
+/*#####################################################################################*/
+/*#####################################################################################*/
+/*#####################################################################################*/
+
+.down{
+	position:fixed;
+	top:534px;
+	left:150px;
+}
+/*###########################*/
+.box5{
+	width:220px;
+	height:300px;
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box5{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box5:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box5 > div{
+	background-image:url(images/win98folder25.png);
+	background-repeat:no-repeat;
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:700px;
+	left:200px;
+}
+.close-modal5{
+	position:absolute;
+	top:1px;
+	right:967px;
+	color:black;
+}
+.b5h{
+	position:relative;
+
+	top:-380px;
+	right:230px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:all 0.5s ease;
+}
+.box5:hover .b5h{
+	top:-80px;
+
+	right:10px;
+}
+/*###########################*/
+.box6{
+	width:220px;
+	height:300px;
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box6{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box6:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box6 > div{
+	background-image:url(images/win98folder50.png);
+	background-repeat:no-repeat;
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:200px;
+	left:600px;
+}
+.close-modal6{
+	position:absolute;
+	top:1px;
+	right:648px;
+	color:black;
+}
+.b6h{
+	position:relative;
+	top:220px;
+	right:-210px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:all 0.5s ease;
+}
+.box6:hover .b6h{
+	top:-80px;
+	right:10px;
+}
+/*###########################*/
+.box7{
+	width:220px;
+	height:300px;
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box7{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0);
+	z-index:999;
+	opacity:0;
+	transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	pointer-events:none;
+}
+.modal-box7:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box7 > div{
+	background-image:url(images/win98folder75.png);
+	background-repeat:no-repeat;
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:50px;
+	left:150px;
+}
+.close-modal7{
+	position:absolute;
+	top:1px;
+	right:327px;
+	color:black;
+}
+.b7h{
+	position:relative;
+	top:-380px;
+	right:-210px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:all 0.5s ease;
+}
+.box7:hover .b7h{
+	top:-80px;
+	right:10px;
+}
+/*###########################*/
+.box8{
+	width:220px;
+	height:300px;
+	background:rgb(65,64,64);
+	overflow:hidden;
+}
+.modal-box8{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:1024px;
+	/*right:0px;
+	bottom:0px;*/
+	background:rgba(255,255,255,0.8);
+	z-index:999;
+	opacity:0;
+	transition: opacity 0s ease-in 0.5s;
+	-webkit-transition: opacity 0s ease-in 0.5s;
+	-moz-transition: opacity 0s ease-in 0.5s;
+	pointer-events:none;
+}
+.modal-box8:target{
+	opacity:1;
+	pointer-events:auto;
+}
+.modal-box8 > div{
+	background-image:url(images/dream.png);
+	width:1280px;
+	height:1024px;
+	position:absolute;
+	/*background:grey;*/
+	top:0px;
+	left:0px;
+}
+.close-modal8{
+	position:absolute;
+	top:1px;
+	right:8px;
+	color:white;
+}
+.b8h{
+	position:relative;
+	top:222px;
+	right:230px;
+	width:220px;
+	height:300px;
+	background-image:url(images/clippy1.png);
+	/* background-color:black; */
+	opacity:1;
+	transition:all 0.5s ease;
+}
+.box8:hover .b8h{
+	top:-80px;
+	right:10px;
+}
+/*###########################*/
+
+
+

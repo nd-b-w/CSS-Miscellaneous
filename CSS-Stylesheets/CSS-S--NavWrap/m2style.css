@@ -1,0 +1,382 @@
+body{
+	width:100%;
+	height:600px;
+	background:white;
+	margin:0px;
+	overflow:hidden;
+}
+/*---------------------------------------------------------------------------*/
+.socialnetworks{ /*left*/
+	width:500px;
+	height:330px;
+	margin-top:200px;
+	margin-left:-270px;
+}
+.moresocialnetworks{ /*right*/
+	width:500px;
+	height:330px;
+	margin-top:-340px;
+	margin-left:1881px;
+}
+.debug{ /*just to check something*/
+	width:200px;
+	height:200px;
+	
+}
+/*.seearea{
+	width:1920px;
+	height:885px;
+	margin-top:-730px;
+	margin-left:0px;
+	background:grey;
+}*/
+.downright{ /*diagonal*/
+	float:left;
+	margin-top:180px;
+	margin-left:1835px;
+	width:200px;
+	height:200px;
+}
+.downleft{ /*diagonal*/
+	float:left;
+	margin-top:180px;
+	margin-left:-2250px;
+	width:200px;
+	height:200px;
+}
+.upright{ /*diagonal*/
+	float:left;
+	width:200px;
+	height:200px;
+	margin-top:-830px;
+	margin-left:-200px;
+}
+.upleft{ /*diagonal*/
+	float:left;
+	width:200px;
+	height:200px;
+	margin-top:-830px;
+	margin-left:-2250px;
+}
+/*---------------------------------------------------------------------------*/
+.facebook, .twitter, .linkedin, .instagram{
+	width:300px;
+	height:75px;
+	background:black;
+	transition:all 0.5s ease;
+	margin:10px;
+}
+.vkontakte, .odnoklassniki, .deviantart, .google{
+	width:300px;
+	height:75px;
+	background:black;
+	transition:all 0.5s ease;
+	margin:10px;
+}
+.chrom{
+	margin-left:0px;
+	width:300px;
+	height:75px;
+	background:black;
+	transform:rotate(45deg);
+	transition:all 0.5s ease;
+}
+.firefox{
+	width:300px;
+	height:75px;
+	background:black;
+	transform:rotate(135deg);
+	transition:all 0.5s ease;
+}
+.opera{
+	width:300px;
+	height:75px;
+	background:black;
+	transform:rotate(135deg);
+	transition:all 0.5s ease;
+}
+.edge{
+	width:300px;
+	height:75px;
+	background:black;
+	transform:rotate(45deg);
+	transition:all 0.5s ease;
+}
+/*---------------------------------------------------------------------------*/
+.roundblackleft{
+	margin-top:-76px;
+	margin-left:260px;
+	width:75px;
+	height:75px;
+	background:black;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundblackright{
+	margin-top:-76px;
+	margin-left:-40px;
+	width:75px;
+	height:75px;
+	background:black;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundblackdiag-dr{
+	margin-top:-60px;
+	margin-left:-40px;
+	width:75px;
+	height:75px;
+	background:black;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundblackdiag-dl{
+	margin-top:-60px;
+	margin-left:-40px;
+	width:75px;
+	height:75px;
+	background:black;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundblackdiag-ur{
+	margin-top:-60px;
+	margin-left:260px;
+	width:75px;
+	height:75px;
+	background:black;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundblackdiag-ul{
+	margin-top:-60px;
+	margin-left:260px;
+	width:75px;
+	height:75px;
+	background:black;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+/*---------------------------------------------------------------------------*/
+.roundwhiteleft{
+	margin-top:-68px;
+	margin-left:268px;
+	width:60px;
+	height:60px;
+	background:white;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundwhiteright{
+	margin-top:-68px;
+	margin-left:-30px;
+	width:60px;
+	height:60px;
+	background:white;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundwhitediag-dr{
+	margin-top:-68px;
+	margin-left:-30px;
+	width:60px;
+	height:60px;
+	background:white;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundwhitediag-dl{
+	margin-top:-68px;
+	margin-left:-30px;
+	width:60px;
+	height:60px;
+	background:white;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundwhitediag-ur{
+	margin-top:-68px;
+	margin-left:265px;
+	width:60px;
+	height:60px;
+	background:white;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+.roundwhitediag-ul{
+	margin-top:-68px;
+	margin-left:265px;
+	width:60px;
+	height:60px;
+	background:white;
+	opacity:1;
+	border-radius:100%;
+	transition:all 0.5s ease;
+}
+/*---------------------------------------------------------------------------*/
+.socialnetworks i{
+	margin-left:280px;
+	margin-top:12px;
+	color:black;
+	transition:all 0.5s ease;
+}
+.moresocialnetworks i{
+	margin-left:-18px;
+	margin-top:12px;
+	color:black;
+	transition:all 0.5s ease;
+}
+.downright i{
+	margin-left:-24px;
+	margin-top:12px;
+	color:black;
+	transition:all 0.5s ease;
+	/*bon l'icon de chrome est pas tournée mais osef...*/
+}
+.downleft i{
+	margin-left:-24px;
+	margin-top:12px;
+	color:black;
+	transition:all 0.5s ease;
+	transform:rotate(-135deg);
+}
+.upright i{
+	margin-left:272px;
+	margin-top:12px;
+	color:black;
+	transition:all 0.5s ease;
+	transform:rotate(-500deg);
+}
+.upleft i{
+	margin-left:272px;
+	margin-top:12px;
+	color:black;
+	transition:all 0.5s ease;
+	transform:rotate(-45deg);
+}
+/*---------------------------------------------------------------------------*/
+.socialnetworks h1{
+	font-family:Tahoma;
+	margin-left:35px;
+	margin-top:-45px;
+	color:white;
+	transition:all 0.5s ease;
+}
+.moresocialnetworks h1{
+	font-family:Tahoma;
+	margin-left:70px;
+	margin-top:-45px;
+	color:white;
+	transition:all 0.5s ease;
+}
+/*---------------------------------------------------------------------------*/
+.facebook:hover, .twitter:hover, .linkedin:hover, .instagram:hover{
+	margin-left:260px;
+	background:white;
+	font-color:black;
+}
+.vkontakte:hover, .odnoklassniki:hover, .deviantart:hover, .google:hover{
+	margin-left:-260px;
+	background:white;
+	font-color:black;
+}
+.chrom:hover{
+	margin-left:-100px;
+	margin-top:-100px;
+	background:white;
+}
+.firefox:hover{
+	margin-left:100px;
+	margin-top:-100px;
+	background:white;
+}
+.opera:hover{
+	margin-left:-100px;
+	margin-top:100px;
+	background:white;
+}
+.edge:hover{
+	margin-left:100px;
+	margin-top:100px;
+	background:white;
+}
+/*---------------------------------------------------------------------------*/
+.facebook:hover .roundblackleft, .twitter:hover .roundblackleft, .linkedin:hover .roundblackleft, .instagram:hover .roundblackleft{
+	background:white;
+}
+.vkontakte:hover .roundblackright, .odnoklassniki:hover .roundblackright, .deviantart:hover .roundblackright, .google:hover .roundblackright{
+	background:white;
+}
+.chrom:hover .roundblackdiag-dr, .firefox:hover .roundblackdiag-dl, .opera:hover .roundblackdiag-ur, .edge:hover .roundblackdiag-ul{
+	background:white;
+}
+
+/*---------------------------------------------------------------------------*/
+.facebook:hover .roundwhiteleft, .twitter:hover .roundwhiteleft, .linkedin:hover .roundwhiteleft, .instagram:hover .roundwhiteleft{
+	background:black;
+}
+.vkontakte:hover .roundwhiteright, .odnoklassniki:hover .roundwhiteright, .deviantart:hover .roundwhiteright, .google:hover .roundwhiteright{
+	background:black;
+}
+.chrom:hover .roundwhitediag-dr, .firefox:hover .roundwhitediag-dl, .opera:hover .roundwhitediag-ur, .edge:hover .roundwhitediag-ul{
+	background:black;
+}
+/*---------------------------------------------------------------------------*/
+.facebook:hover i, .twitter:hover i, .linkedin:hover i, .instagram:hover i{
+	transform:rotate(360deg);
+	color:white;
+}
+.vkontakte:hover i, .odnoklassniki:hover i, .deviantart:hover i, .google:hover i{
+	transform:rotate(-360deg);
+	color:white;
+}
+.chrom:hover i{
+	transform:rotate(-360deg);
+	color:white;
+}
+.firefox:hover i{
+	transform:rotate(225deg);
+	color:white;
+}
+.opera:hover i{
+	transform:rotate(-140deg);
+	color:white;
+}
+.edge:hover i{
+	transform:rotate(315deg);
+	color:white;
+}
+/*---------------------------------------------------------------------------*/
+.facebook:hover h1, .twitter:hover h1, .linkedin:hover h1, .instagram:hover h1{
+	color:black;
+}
+.vkontakte:hover h1, .odnoklassniki:hover h1, .deviantart:hover h1, .google:hover h1{
+	color:black;
+}
+/*---------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
