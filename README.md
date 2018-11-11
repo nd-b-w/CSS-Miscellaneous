@@ -1,5 +1,4 @@
 # CSS-Miscellaneous
-will be update/
 
 [Win98IsLife](https://nd-b-w.github.io/CSS-Miscellaneous/CSS-Stylesheets/CSS-S--Win98IsLife/index.html)
 
